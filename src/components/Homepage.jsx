@@ -5,6 +5,8 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+import home from '/src/Assets/img12.png';
+
 import { FaLinkedinIn } from "react-icons/fa";
 import "../pages/style.css";
 
@@ -36,7 +38,7 @@ function Home() {
 
           <Col md={5}>
             <div >
-            <img className="imagedeveloper" src='/src/Assets/img12.png'/>
+            <img className="imagedeveloper" src={home}/>
             </div>
           </Col>
         </Row>
