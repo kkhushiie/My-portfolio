@@ -368,8 +368,8 @@
 
 @media (max-width: 767px) {
   .webimage {
-    width: 45vh;
-    height: 40vh;
+    width: 43vh;
+    height: 38vh;
     background-size: cover;
     background-position: center;
   }
