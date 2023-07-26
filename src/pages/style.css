@@ -258,7 +258,7 @@
   margin-top: 50px;
   max-width: 550px;
   height: 400px;
-  background-image: url(../assets/img12.png);
+  /* background-image: url(../assets/img12.png); */
   background-size: cover;
   background-position: center;
 }
@@ -377,7 +377,7 @@
 .webimage {
   max-width: 500px;
   height: 350px;
-  background-image: url(../assets/img31.png);
+  /* background-image: url(../assets/img31.png); */
   background-size: cover;
   background-position: center;
 }
