@@ -35,8 +35,8 @@ function Home() {
           </Col>
 
           <Col md={5}>
-            <div className="imagedeveloper">
-            <img src='/src/Assets/img12.png'/>
+            <div >
+            <img className="imagedeveloper" src='/src/Assets/img12.png'/>
             </div>
           </Col>
         </Row>
