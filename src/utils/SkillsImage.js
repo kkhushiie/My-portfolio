@@ -1,5 +1,4 @@
 import html from '../Assets/svg/skills/html.svg'
-
 import css from '../Assets/svg/skills/css.svg'
 import javascript from '../Assets/svg/skills/javascript.svg'
 import nextJS from '../Assets/svg/skills/nextJS.svg'
