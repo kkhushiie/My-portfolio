@@ -64,20 +64,21 @@ function Header() {
             >
               Projects
             </NavLink>
-          </Nav.Item>
+          </Nav.Item>    
 
-          
-
-          <Button
+          <Nav.Item>
+          <NavLink
+            className="nav-link"
+           
             onClick={() => {
               window.open(
                 "https://drive.google.com/file/d/1cNLroTdwqzXZpWOOxIqRtTcgxjKwcwBg/view?usp=drive_link"
               );
             }}
-            className="noselect" id="button1"
           >
             Resume
-          </Button>
+          </NavLink>
+        </Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
