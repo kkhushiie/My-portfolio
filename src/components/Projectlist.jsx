@@ -6,6 +6,10 @@ import i3 from '/src/Assets/image3.png';
 import i4 from '/src/Assets/image4.png';
 import i5 from '/src/Assets/image5.png';
 import i6 from '/src/Assets/image6.png';
+import i7 from '/src/Assets/image7.png';
+import i8 from '/src/Assets/image8.png';
+import i9 from '/src/Assets/image9.png';
+
 import "../pages/style.css";
 function Projectlist() {
   return (
@@ -74,6 +78,33 @@ function Projectlist() {
                 ghLink="https://kkhushiie.github.io/bank/"
               />
             </Col>
+            <Col md={4} className="project-card">
+            <ProjectCard
+            imgPath={i7}
+              isBlog={false}
+              title="Old Portfolio"
+              description="This is my old portfolio fully responsive built using HTML,CSS and a bit of Js code."
+              ghLink="https://kkhushiie.github.io/Another-portfolio/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+          <ProjectCard
+          imgPath={i8}
+            isBlog={false}
+            title="Music Website"
+            description="A dynamic music listing website built using HTML, CSS only."
+            ghLink="https://kkhushiie.github.io/MusicWebsite/"
+          />
+        </Col>
+        <Col md={4} className="project-card">
+        <ProjectCard
+        imgPath={i9}
+          isBlog={false}
+          title="Payment Gateway"
+          description="A collab project in which my primary contribution is in the integration."
+          ghLink="https://kkhushiie.github.io/Payment-Gateway/"
+        />
+      </Col>
           </Row>
         </Container>
       </Container>
