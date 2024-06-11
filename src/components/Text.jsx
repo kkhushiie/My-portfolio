@@ -10,6 +10,8 @@ function Text() {
           "React Js Developer",
           "Computer Science Undergraduate",
           "Front End Developer",
+          //"Front End Developer",
+
         ],
         autoStart: true,
         loop: true,
