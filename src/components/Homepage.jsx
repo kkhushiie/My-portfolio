@@ -30,7 +30,7 @@ function Home() {
             }}
               className='socailmediabtn'><FaLinkedinIn className='icon' /></button>
             <button onClick={() => {
-              window.open("https://x.com/meandmybobatea");
+              window.open("https://twitter.com/ihsuhk_k?t=AbT0fTDd_-ZEAJHptRfWsg&s=09");
             }}
               className='socailmediabtn'><AiOutlineTwitter className='icon' /></button>
            
